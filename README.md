@@ -1,7 +1,7 @@
 # Ansible Postfix role
 This role is an easy way of configuring outgoing mail for local users. It's
-intended to be used by local users only, for example, to receive mail from
-cronjobs. 
+intended to be used by local users only, for example, to send mail from
+cronjobs to an external address.
 
 An aliases file is set up along with Postfix, where all email is forwarded to
 the current Ansible user. Those emails are then forwarded to an external email

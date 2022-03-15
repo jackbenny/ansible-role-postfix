@@ -16,6 +16,12 @@
       mail will be forwarded to this address"
     success_msg: "Recipient address is set"
 
+- name: Update the cache if we are on a Debian based system
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600
+  when: ansible_os_family == 'Debian'
+
 - name: Install Postfix and s-nail
   package:
     state: present

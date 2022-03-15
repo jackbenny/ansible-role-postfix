@@ -1,2 +1,36 @@
-dependencies:
-  - role: update_cache
+dependencies: []
+
+galaxy_info:
+  role_name: postfix
+  author: jackbenny
+  description: Setup Postfix so local users can send external mail
+  company: "CyberInfo Sverige"
+  license: "license GPLv2"
+  min_ansible_version: 2.9
+  platforms:
+    - name: Debian
+      versions:
+        - stretch
+        - buster
+        - bullseye
+    - name: Ubuntu
+      versions:
+        - xenial
+        - bionic
+        - focal
+        - impish
+    - name: CentOS
+      versions:
+        - 9
+    - name: Fedora
+      version:
+        - 30
+        - 31
+        - 32
+        - 33
+        - 34
+        - 35
+        - 36
+  galaxy_tags:
+    - postfix
+    - system
