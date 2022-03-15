@@ -19,9 +19,9 @@ galaxy_info:
         - bionic
         - focal
         - impish
-    - name: CentOS
+    - name: EL
       versions:
-        - 9
+        - 8
     - name: Fedora
       version:
         - 30
