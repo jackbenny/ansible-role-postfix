@@ -1,0 +1,8 @@
+mail_hostname: vm.home.lan
+canonical_name: vm.home.example.tld
+vm_user: "{{ ansible_user }}"
+relay_host: email-smtp.eu-west-1.amazonaws.com
+relay_port: 465
+relay_user: 
+relay_password: 
+external_email_address: 
