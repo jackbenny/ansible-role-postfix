@@ -3,7 +3,7 @@ dependencies: []
 galaxy_info:
   role_name: postfix
   author: jackbenny
-  description: Setup Postfix so local users can send external mail
+  description: Setup Postfix so that local users can send external mail
   company: "CyberInfo Sverige"
   license: "license GPLv2"
   min_ansible_version: 2.9
